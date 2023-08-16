@@ -2,18 +2,21 @@
     "user":
     [
         {
+            "id": 1,
             "name": "Pablo",
             "email": "pablo@gmail.com",
             "password": "soypablo"
         },
         
         {
+            "id": 2,
             "name": "Peter",
             "email": "peter@gmail.com",
             "password": "soypeter"
         },
         
         {
+            "id": 3,
             "name": "Bruce",
             "email": "bruce@gmail.com",
             "password": "soybruce"
@@ -23,30 +26,92 @@
     "proyect":
     [
         {
+            "id": 1,
             "name": "Tienda Virtual",
             "type": "Comercio",
             "Investment": 2000000,
             "progress": "20%",
             "time": 50,
-            "status": false
+            "status": false,
+            "description": "Página Web para la venta de productos del hogar, en la que encontrarás diversos artículos llamativos e innovadores. ",
+            "tasks":[
+                {
+                    "id": 1, 
+                    "name": "Crear Home",
+                    "statu": true
+                },
+
+                {
+                    "id": 2,
+                    "name": "Diseñar Sistema de Compra",
+                    "statu": false
+                },
+                {
+                    "id": 3,
+                    "name": "Publicar Nuevos Productos",
+                    "statu": false
+                }
+            ]
 
         },
         {
+            "id": 2,
             "name": "Menú Restaurante",
             "type": "Comercio",
             "Investment": 1000000,
             "progress": "30%",
             "time": 70,
-            "status": false
+            "status": false,
+            "description": "Plataforma en donde se presenta el menú del Restaurante Dojo Buh, sus diversos platillos y ofertas.",
+            "tasks": [
+
+                {
+                    "id": 1,
+                    "name": "Enlistar las Ofertas",
+                    "statu": true
+                },
+                {
+                    "id": 2,
+                    "name": "Plataforma para Pedir Domicilio",
+                    "statu": false
+                },
+                {
+                    "id": 3,
+                    "name": "Carousel de Platos del día",
+                    "statu": true
+                }
+
+
+            ]
 
         },
         {
+            "id":3,
             "name": "Juegos Loops",
             "type": "Diversión",
             "Investment": 4000000,
             "progress": "60%",
             "time": 150,
-            "status": false
+            "status": false,
+            "description": "Plataforma de Videojuegos para el entretenimiento y desarrollo cognitivo.",
+            "tasks": 
+            [
+                {
+                    "id": 1,
+                    "name": "Desplegar Controles de cada VídeoJuego",
+                    "statu": false
+                },
+                {
+                    "id": 2,
+                    "name": "Enlazar otras Plataformas de Vídeojuegos",
+                    "statu": true
+                },
+                {
+                    "id": 3,
+                    "name": "conectar a multihugador",
+                    "statu": false
+                }
+            ]
 
         }
  
