@@ -1,0 +1,55 @@
+{
+    "user":
+    [
+        {
+            "name": "Pablo",
+            "email": "pablo@gmail.com",
+            "password": "soypablo"
+        },
+        
+        {
+            "name": "Peter",
+            "email": "peter@gmail.com",
+            "password": "soypeter"
+        },
+        
+        {
+            "name": "Bruce",
+            "email": "bruce@gmail.com",
+            "password": "soybruce"
+        }
+    ],
+
+    "proyect":
+    [
+        {
+            "name": "Tienda Virtual",
+            "type": "Comercio",
+            "Investment": 2000000,
+            "progress": "20%",
+            "time": 50,
+            "status": false
+
+        },
+        {
+            "name": "Menú Restaurante",
+            "type": "Comercio",
+            "Investment": 1000000,
+            "progress": "30%",
+            "time": 70,
+            "status": false
+
+        },
+        {
+            "name": "Juegos Loops",
+            "type": "Diversión",
+            "Investment": 4000000,
+            "progress": "60%",
+            "time": 150,
+            "status": false
+
+        }
+ 
+ 
+    ]
+}
